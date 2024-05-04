@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="etiquetas">
+        <item>No muy bien.</item>
+        <item>Podría estar mejor</item>
+        <item>Bien</item>
+        <item>Muy Bien</item>
+        <item>Super</item>
+    </string-array>
+</resources>

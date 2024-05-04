@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">MindfulWOD</string>
+    <string name="user">Usuario</string>
+    <string name="password">Contraseña</string>
+    <string name="registrarse">Registrarse</string>
+    <string name="nombre_y_apellidos">Nombre y Apellidos</string>
+    <string name="email">Email</string>
+    <string name="telefono">Teléfono</string>
+    <string name="registrate">Regístrate!</string>
+    <string name="aun_no_estas_registrado">¿Aún no estás Registrado?</string>
+    <string name="inicia_sesi_n">Inicia Sesión</string>
+    <string name="ya_estas_registrado_a">¿Ya estás registrado/a?</string>
+    <string name="Home">Home</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">MindfulWOD</string>
+    <string name="nav_header_subtitle">cbmguerra@gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Opciones</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_animo">Estado de Ánimo</string>
+    <string name="menu_actividades">Actividades</string>
+    <string name="WOD">MindfulWOD, donde el WOD significa( Work of the Day) para tu salud.</string>
+    <string name="bienvenido">¡Bienvenido/a a MindfulWOD!</string>
+    <string name="Hoy">¿Cómo te sientes hoy?</string>
+    <string name="registro_del_nimo">Registro del Ánimo</string>
+    <string name="registrar">Registrar</string>
+    <string name="volver">Volver</string>/>
+    <string name="selecciona_etiqueta">Selecciona una etiqueta</string>
+    <string name="dd_mm_aaaa">dd/mm/aaaa</string>
+    <string name="actividades_mindfulwod">Actividades MindfulWOD</string>
+
+</resources>

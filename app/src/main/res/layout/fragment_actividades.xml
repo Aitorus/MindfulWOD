@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/actividades"
+    android:orientation="vertical"
+    tools:context=".ui.actividades.ActividadesFragment">
+
+    <TextView
+        android:id="@+id/text_slideshow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2_animo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Actividades"
+        android:textAlignment="center"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp" />
+
+    <ImageView
+        android:id="@+id/yoga_entrar"
+        android:layout_width="342dp"
+        android:layout_height="199dp"
+        android:alpha="0.9"
+        android:layout_gravity="center"
+        android:background="@drawable/image"
+        android:src="@drawable/yoga" />
+
+    <TextView
+        android:id="@+id/textView3_animo"
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:text="Haz clic en la imagen para acceder a la meditación guiada."
+        android:textAlignment="center"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/idTVTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:padding="4dp"
+        android:text="Ejercicios"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <!-- creating an expandable list view on below line-->
+    <ExpandableListView
+        android:id="@+id/idExpandableListView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/idTVTitle" />
+
+
+</LinearLayout>

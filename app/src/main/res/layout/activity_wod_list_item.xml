@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/id_activitywod"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+        android:padding="4dp"
+        android:text="Actividades MindfulWOD"
+        android:textColor="#FF000000"
+        android:textSize="15sp" />
+
+    <!-- TextView para la descripción del ejercicio -->
+    <TextView
+        android:id="@+id/id_activitywod_desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/id_activitywod"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="3dp"
+        android:padding="4dp"
+        android:textColor="#FF000000"
+        android:textSize="13sp" />
+
+</RelativeLayout>

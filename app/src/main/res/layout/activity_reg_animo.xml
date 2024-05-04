@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/reg_animop"
+    tools:context=".ui.animo.RegAnimoActivity">
+
+    <TextView
+        android:id="@+id/textView2_animo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/registro_del_nimo"
+        android:textAlignment="center"
+        android:textSize="34sp"
+        android:textStyle="italic" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <CalendarView
+            android:id="@+id/calendarView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="181dp"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <EditText
+            android:id="@+id/txt_fecha"
+            android:layout_width="match_parent"
+            android:layout_height="61dp"
+            android:background="@drawable/spinner_rounded"
+            android:ems="10"
+            android:hint="@string/dd_mm_aaaa"
+            android:inputType="date"
+            android:textAlignment="center"
+            android:textColorHint="#706767" />
+
+        <androidx.appcompat.widget.AppCompatSpinner
+            android:id="@+id/sel_animo"
+            android:layout_width="match_parent"
+            android:layout_height="59dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/spinner_rounded"
+            android:entries="@array/etiquetas"
+            android:prompt="@string/selecciona_etiqueta" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="320dp"
+        android:layout_height="69dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/bt_registrar"
+            android:layout_width="158dp"
+            android:layout_height="wrap_content"
+            android:text="@string/registrar" />
+
+        <Button
+            android:id="@+id/bt_volver"
+            android:layout_width="158dp"
+            android:layout_height="wrap_content"
+            android:text="@string/volver" />
+    </LinearLayout>
+
+
+</LinearLayout>
